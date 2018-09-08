@@ -18,15 +18,26 @@ public class VirtualPetApp {
 				pet.petStatus();
 				pet.petOptions();
 				pet.tick();
-				input.nextLine();
-			}else if(menuOption.equals("2"))
+
+			}else if(menuOption.equals("2")) {
 				pet.feed();
 				pet.petStatus();
+				pet.petOptions();
 				pet.tick();
-				input.nextLine();
-		}
-		
-		menuOption = input.nextLine();
+			
+			} else if (menuOption.equals("3")){
+				pet.water();
+				pet.petStatus();
+				pet.petOptions();
+				pet.tick();
+			}else if (menuOption.equals("4")){
+				pet.pet();
+				pet.petStatus();
+				pet.petOptions();
+				pet.tick();
+			}
+				menuOption = input.nextLine();
+	
 	}
-
+}
 }

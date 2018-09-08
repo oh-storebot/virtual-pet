@@ -1,11 +1,11 @@
 
 public class VirtualPet {
 
-	private double hungerLevel;
-	private double thirstLevel;
-	private double boredomLevel;
+	private int hungerLevel;
+	private int thirstLevel;
+	private int boredomLevel;
 	
-	public VirtualPet(double hunger, double thirst, double boredom) {
+	public VirtualPet(int hunger, int thirst, int boredom) {
 		hungerLevel = hunger;
 		thirstLevel = thirst;
 		boredomLevel = boredom;
@@ -50,14 +50,14 @@ public class VirtualPet {
 	}
 	
 	public double feed() {
-		return hungerLevel *=2.0;
+		return hungerLevel *=1.7;
 	}
 	
 	public double water() {
-		return thirstLevel *=2.0;
+		return thirstLevel *=1.7;
 	}
 	
 	public double pet() {
-		return boredomLevel *=2.0;
+		return boredomLevel *=1.7;
 	}
 }
