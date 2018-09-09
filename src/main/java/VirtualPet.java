@@ -109,6 +109,11 @@ public class VirtualPet {
 			hungerLevel += 20;
 			System.out.println("Your Pet's Favorite Food Bonus! +20!");
 		}
+		if(hungerLevel == 100) {
+			overFeed();
+			hungerLevel -=20;
+			System.out.println("Your Pet wasn't hungry and it hates that food! -20!");
+		}
 	}
 
 	public void petStatus() {

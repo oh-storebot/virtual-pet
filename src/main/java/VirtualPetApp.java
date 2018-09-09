@@ -48,7 +48,7 @@ public class VirtualPetApp {
 				pet.overSleep();
 				pet.petStatus();
 				pet.petOptions();
-				// no tick. does not get hunrgy, thirsty or bored while sleeping
+				// no tick. does not get hunrgy, thirsty or bored while sleeping. this is intentional
 			}
 
 			pet.checkScenarios();
