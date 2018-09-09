@@ -24,7 +24,7 @@ public class VirtualPetApp {
 
 				pet.petPrint();
 				pet.favFeed();
-				// pet.overFeed();
+				pet.overFeed();
 				pet.petStatus();
 				pet.petOptions();
 				pet.tick();
